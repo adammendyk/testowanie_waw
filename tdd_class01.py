@@ -62,27 +62,8 @@ from random import randint
 # assert add_str('sd', 'kdj') == 'sd'+'kdj', 'FAILED'
 # print('PASSED')
 
-# --- unit testing
+# --- unit testing - pliki: funkcje.py i testy.py
 
-def add_no(a, b):
-    return a+b
+# patrz tam
 
-
-def product(x, y):
-    return x*y
-
-
-def test_add_no():
-    assert add_no(7, 3) == 10, 'FAILED'
-    assert add_no(7, -1) == 6, 'FAILED'
-    assert round(add_no(4.3, 5.6), 1) == 9.9, 'FAILED'
-
-
-def test_product():
-    assert product(3, 3) == 3*3, 'FAILED'
-    assert product(5, 4) == 5*4, 'FAILED'
-    assert product(0, 3) == 0*3, 'FAILED'
-
-
-test_add_no()
-test_product()
+# ---
