@@ -16,8 +16,11 @@ def is_palindrome(str):
 
 def circle_area(r):
     if r < 0:
-        raise Exception('The radius cannot be negative')
+        raise ValueError('The radius cannot be negative')
     if type(r) not in [int, float]:
         raise TypeError('The radius is a non-negative real number')
 
     return pi * r**2
+
+
+# print(circle_area(2))
