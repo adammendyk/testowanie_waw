@@ -8,4 +8,4 @@ def test_car_init():
 
 def test_car_change_color():
     car = Car('bmw', 'black')
-    assert car.color('red')
+    assert car.color == 'red'
