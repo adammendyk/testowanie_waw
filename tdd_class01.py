@@ -66,4 +66,4 @@ from random import randint
 
 # patrz tam
 
-# ---
+# --- testing classes

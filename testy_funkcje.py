@@ -16,7 +16,7 @@ def test_product():
 def test_is_palindrome():
     assert funkcje.is_palindrome('kajak'), 'FAILED'
     assert funkcje.is_palindrome('anna'), 'FAILED'
-    assert funkcje.is_palindrome('akllka'), 'FAILED - not palindrome'
+    assert funkcje.is_palindrome('akllka'), 'FAILED'
 
 
 test_add_no()
