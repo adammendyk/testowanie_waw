@@ -32,6 +32,11 @@ def test_value():
         funkcje.circle_area(-2)
 
 
-test_add_no()
-test_product()
-test_is_palindrome()
+def test_type():
+    with pytest.raises(TypeError):
+        funkcje.circle_area('asd')
+
+
+# test_add_no()
+# test_product()
+# test_is_palindrome()
