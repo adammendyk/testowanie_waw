@@ -19,3 +19,5 @@ def circle_area(r):
         raise Exception('The radius cannot be negative')
     if type(r) not in [int, float]:
         raise TypeError('The radius is a non-negative real number')
+
+    return pi * r**2
