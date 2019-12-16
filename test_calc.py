@@ -1,4 +1,5 @@
 import unittest
+import calc
 
 
 class testAdd(unittest.TestCase):
@@ -13,7 +14,7 @@ class testAdd(unittest.TestCase):
         assert calc.plus(-5, -5) == -5 + (-5)
         assert calc.plus(-2, 0) == -2 + 0
 
-    def test_minus(self):
+    def test_minus_int(self):
         assert calc.minus(3, 6) == 3 - 6
         assert calc.minus(-2, 4) == -2 - 4
         assert calc.minus(0, 0) == 0 - 0
